@@ -1,0 +1,81 @@
+.mainTodo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 250px;
+}
+
+.todoInp{
+    width: 300px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+.todoInp::placeholder{
+    padding-left: 10px;
+}
+
+.todoBtn{
+    background-color: aliceblue;
+    color: black;
+    cursor:  pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 7px 15px;
+}
+
+.todos{
+    margin-top: 10px;
+}
+
+.todoEl{
+    background-color: rgb(23, 0, 86);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.todoTitle{
+    margin: auto;
+    padding:10px 10px;
+}
+
+.deleteTodo{
+    background-color: rgb(0, 136, 255);
+    color: rgb(255, 0, 0);
+    cursor:  pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 5px 8px;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+
+.editTodo{
+    background-color: rgb(0, 128, 23);
+    color: rgb(255, 255, 255);
+    cursor:  pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 5px 8px;
+    margin-right: 7px;
+}
+
+
+
+.editInp{
+    margin-top: 4px;
+    height: 30px;
+    width: 200px;
+    color: aliceblue;
+    background-color: rgb(68, 68, 68);
+}
+
+
+
